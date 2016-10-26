@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D7270B11DC1028500537609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7270B01DC1028500537609 /* AppDelegate.swift */; };
+		8D7270B31DC1028500537609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7270B21DC1028500537609 /* ViewController.swift */; };
+		8D7270B61DC1028500537609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7270B41DC1028500537609 /* Main.storyboard */; };
+		8D7270B81DC1028500537609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7270B71DC1028500537609 /* Assets.xcassets */; };
+		8D7270BB1DC1028500537609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7270B91DC1028500537609 /* LaunchScreen.storyboard */; };
+		8D7270C61DC1028500537609 /* Swift3_0_Dropdown_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7270C51DC1028500537609 /* Swift3_0_Dropdown_MenuTests.swift */; };
+		8D7270D11DC1028500537609 /* Swift3_0_Dropdown_MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7270D01DC1028500537609 /* Swift3_0_Dropdown_MenuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D7270C21DC1028500537609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D7270A51DC1028500537609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7270AC1DC1028500537609;
+			remoteInfo = "Swift3.0-Dropdown-Menu";
+		};
+		8D7270CD1DC1028500537609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D7270A51DC1028500537609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7270AC1DC1028500537609;
+			remoteInfo = "Swift3.0-Dropdown-Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D7270AD1DC1028500537609 /* Swift3.0-Dropdown-Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift3.0-Dropdown-Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D7270B01DC1028500537609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D7270B21DC1028500537609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D7270B51DC1028500537609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D7270B71DC1028500537609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D7270BA1DC1028500537609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D7270BC1DC1028500537609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D7270C11DC1028500537609 /* Swift3.0-Dropdown-MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift3.0-Dropdown-MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D7270C51DC1028500537609 /* Swift3_0_Dropdown_MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift3_0_Dropdown_MenuTests.swift; sourceTree = "<group>"; };
+		8D7270C71DC1028500537609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D7270CC1DC1028500537609 /* Swift3.0-Dropdown-MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift3.0-Dropdown-MenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D7270D01DC1028500537609 /* Swift3_0_Dropdown_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift3_0_Dropdown_MenuUITests.swift; sourceTree = "<group>"; };
+		8D7270D21DC1028500537609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D7270AA1DC1028500537609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7270BE1DC1028500537609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7270C91DC1028500537609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D7270A41DC1028500537609 = {
+			isa = PBXGroup;
+			children = (
+				8D7270AF1DC1028500537609 /* Swift3.0-Dropdown-Menu */,
+				8D7270C41DC1028500537609 /* Swift3.0-Dropdown-MenuTests */,
+				8D7270CF1DC1028500537609 /* Swift3.0-Dropdown-MenuUITests */,
+				8D7270AE1DC1028500537609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D7270AE1DC1028500537609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D7270AD1DC1028500537609 /* Swift3.0-Dropdown-Menu.app */,
+				8D7270C11DC1028500537609 /* Swift3.0-Dropdown-MenuTests.xctest */,
+				8D7270CC1DC1028500537609 /* Swift3.0-Dropdown-MenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D7270AF1DC1028500537609 /* Swift3.0-Dropdown-Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8D7270B01DC1028500537609 /* AppDelegate.swift */,
+				8D7270B21DC1028500537609 /* ViewController.swift */,
+				8D7270B41DC1028500537609 /* Main.storyboard */,
+				8D7270B71DC1028500537609 /* Assets.xcassets */,
+				8D7270B91DC1028500537609 /* LaunchScreen.storyboard */,
+				8D7270BC1DC1028500537609 /* Info.plist */,
+			);
+			path = "Swift3.0-Dropdown-Menu";
+			sourceTree = "<group>";
+		};
+		8D7270C41DC1028500537609 /* Swift3.0-Dropdown-MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D7270C51DC1028500537609 /* Swift3_0_Dropdown_MenuTests.swift */,
+				8D7270C71DC1028500537609 /* Info.plist */,
+			);
+			path = "Swift3.0-Dropdown-MenuTests";
+			sourceTree = "<group>";
+		};
+		8D7270CF1DC1028500537609 /* Swift3.0-Dropdown-MenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D7270D01DC1028500537609 /* Swift3_0_Dropdown_MenuUITests.swift */,
+				8D7270D21DC1028500537609 /* Info.plist */,
+			);
+			path = "Swift3.0-Dropdown-MenuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D7270AC1DC1028500537609 /* Swift3.0-Dropdown-Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D7270D51DC1028500537609 /* Build configuration list for PBXNativeTarget "Swift3.0-Dropdown-Menu" */;
+			buildPhases = (
+				8D7270A91DC1028500537609 /* Sources */,
+				8D7270AA1DC1028500537609 /* Frameworks */,
+				8D7270AB1DC1028500537609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift3.0-Dropdown-Menu";
+			productName = "Swift3.0-Dropdown-Menu";
+			productReference = 8D7270AD1DC1028500537609 /* Swift3.0-Dropdown-Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D7270C01DC1028500537609 /* Swift3.0-Dropdown-MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D7270D81DC1028500537609 /* Build configuration list for PBXNativeTarget "Swift3.0-Dropdown-MenuTests" */;
+			buildPhases = (
+				8D7270BD1DC1028500537609 /* Sources */,
+				8D7270BE1DC1028500537609 /* Frameworks */,
+				8D7270BF1DC1028500537609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D7270C31DC1028500537609 /* PBXTargetDependency */,
+			);
+			name = "Swift3.0-Dropdown-MenuTests";
+			productName = "Swift3.0-Dropdown-MenuTests";
+			productReference = 8D7270C11DC1028500537609 /* Swift3.0-Dropdown-MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D7270CB1DC1028500537609 /* Swift3.0-Dropdown-MenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D7270DB1DC1028500537609 /* Build configuration list for PBXNativeTarget "Swift3.0-Dropdown-MenuUITests" */;
+			buildPhases = (
+				8D7270C81DC1028500537609 /* Sources */,
+				8D7270C91DC1028500537609 /* Frameworks */,
+				8D7270CA1DC1028500537609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D7270CE1DC1028500537609 /* PBXTargetDependency */,
+			);
+			name = "Swift3.0-Dropdown-MenuUITests";
+			productName = "Swift3.0-Dropdown-MenuUITests";
+			productReference = 8D7270CC1DC1028500537609 /* Swift3.0-Dropdown-MenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D7270A51DC1028500537609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = HackTech;
+				TargetAttributes = {
+					8D7270AC1DC1028500537609 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8D7270C01DC1028500537609 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D7270AC1DC1028500537609;
+					};
+					8D7270CB1DC1028500537609 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D7270AC1DC1028500537609;
+					};
+				};
+			};
+			buildConfigurationList = 8D7270A81DC1028500537609 /* Build configuration list for PBXProject "Swift3.0-Dropdown-Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D7270A41DC1028500537609;
+			productRefGroup = 8D7270AE1DC1028500537609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D7270AC1DC1028500537609 /* Swift3.0-Dropdown-Menu */,
+				8D7270C01DC1028500537609 /* Swift3.0-Dropdown-MenuTests */,
+				8D7270CB1DC1028500537609 /* Swift3.0-Dropdown-MenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D7270AB1DC1028500537609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7270BB1DC1028500537609 /* LaunchScreen.storyboard in Resources */,
+				8D7270B81DC1028500537609 /* Assets.xcassets in Resources */,
+				8D7270B61DC1028500537609 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7270BF1DC1028500537609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7270CA1DC1028500537609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D7270A91DC1028500537609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7270B31DC1028500537609 /* ViewController.swift in Sources */,
+				8D7270B11DC1028500537609 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7270BD1DC1028500537609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7270C61DC1028500537609 /* Swift3_0_Dropdown_MenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7270C81DC1028500537609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7270D11DC1028500537609 /* Swift3_0_Dropdown_MenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D7270C31DC1028500537609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D7270AC1DC1028500537609 /* Swift3.0-Dropdown-Menu */;
+			targetProxy = 8D7270C21DC1028500537609 /* PBXContainerItemProxy */;
+		};
+		8D7270CE1DC1028500537609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D7270AC1DC1028500537609 /* Swift3.0-Dropdown-Menu */;
+			targetProxy = 8D7270CD1DC1028500537609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D7270B41DC1028500537609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D7270B51DC1028500537609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D7270B91DC1028500537609 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D7270BA1DC1028500537609 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D7270D31DC1028500537609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D7270D41DC1028500537609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D7270D61DC1028500537609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift3.0-Dropdown-Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackTech.Swift3-0-Dropdown-Menu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8D7270D71DC1028500537609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift3.0-Dropdown-Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackTech.Swift3-0-Dropdown-Menu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8D7270D91DC1028500537609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift3.0-Dropdown-MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackTech.Swift3-0-Dropdown-MenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift3.0-Dropdown-Menu.app/Swift3.0-Dropdown-Menu";
+			};
+			name = Debug;
+		};
+		8D7270DA1DC1028500537609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift3.0-Dropdown-MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackTech.Swift3-0-Dropdown-MenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift3.0-Dropdown-Menu.app/Swift3.0-Dropdown-Menu";
+			};
+			name = Release;
+		};
+		8D7270DC1DC1028500537609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Swift3.0-Dropdown-MenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackTech.Swift3-0-Dropdown-MenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift3.0-Dropdown-Menu";
+			};
+			name = Debug;
+		};
+		8D7270DD1DC1028500537609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Swift3.0-Dropdown-MenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HackTech.Swift3-0-Dropdown-MenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift3.0-Dropdown-Menu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D7270A81DC1028500537609 /* Build configuration list for PBXProject "Swift3.0-Dropdown-Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D7270D31DC1028500537609 /* Debug */,
+				8D7270D41DC1028500537609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D7270D51DC1028500537609 /* Build configuration list for PBXNativeTarget "Swift3.0-Dropdown-Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D7270D61DC1028500537609 /* Debug */,
+				8D7270D71DC1028500537609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D7270D81DC1028500537609 /* Build configuration list for PBXNativeTarget "Swift3.0-Dropdown-MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D7270D91DC1028500537609 /* Debug */,
+				8D7270DA1DC1028500537609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D7270DB1DC1028500537609 /* Build configuration list for PBXNativeTarget "Swift3.0-Dropdown-MenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D7270DC1DC1028500537609 /* Debug */,
+				8D7270DD1DC1028500537609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D7270A51DC1028500537609 /* Project object */;
+}
