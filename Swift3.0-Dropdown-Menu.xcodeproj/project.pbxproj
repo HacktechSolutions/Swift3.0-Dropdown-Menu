@@ -14,6 +14,7 @@
 		8D7270BB1DC1028500537609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7270B91DC1028500537609 /* LaunchScreen.storyboard */; };
 		8D7270C61DC1028500537609 /* Swift3_0_Dropdown_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7270C51DC1028500537609 /* Swift3_0_Dropdown_MenuTests.swift */; };
 		8D7270D11DC1028500537609 /* Swift3_0_Dropdown_MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7270D01DC1028500537609 /* Swift3_0_Dropdown_MenuUITests.swift */; };
+		8D7270DF1DC1029500537609 /* DropMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7270DE1DC1029500537609 /* DropMenuButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8D7270CC1DC1028500537609 /* Swift3.0-Dropdown-MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift3.0-Dropdown-MenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7270D01DC1028500537609 /* Swift3_0_Dropdown_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift3_0_Dropdown_MenuUITests.swift; sourceTree = "<group>"; };
 		8D7270D21DC1028500537609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D7270DE1DC1029500537609 /* DropMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropMenuButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8D7270AF1DC1028500537609 /* Swift3.0-Dropdown-Menu */ = {
 			isa = PBXGroup;
 			children = (
+				8D7270DE1DC1029500537609 /* DropMenuButton.swift */,
 				8D7270B01DC1028500537609 /* AppDelegate.swift */,
 				8D7270B21DC1028500537609 /* ViewController.swift */,
 				8D7270B41DC1028500537609 /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7270DF1DC1029500537609 /* DropMenuButton.swift in Sources */,
 				8D7270B31DC1028500537609 /* ViewController.swift in Sources */,
 				8D7270B11DC1028500537609 /* AppDelegate.swift in Sources */,
 			);
