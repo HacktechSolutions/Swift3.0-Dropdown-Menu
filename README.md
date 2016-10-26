@@ -21,4 +21,8 @@ Here is the init function:
 
 ## The Dropdown Menu
 
+You can choose any font or background color you want for the button, it will just copy the pattern and make the inverse colors for the items.
+
 ![](http://s12.postimg.org/dyb8dfxxp/dropdownmenu.jpg)
+
+
